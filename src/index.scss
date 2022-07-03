@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: .5px;
+  word-wrap: break-word;
+  font-weight: 400;
+  background-color: #fff;
+  color: #767676;
+  overflow: hidden;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
