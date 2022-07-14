@@ -9,7 +9,6 @@ body {
   font-weight: 400;
   background-color: #fff;
   color: #767676;
-  overflow: hidden;
 }
 
 a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
@@ -19,6 +18,13 @@ a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, ci
   padding: 0;
   vertical-align: baseline;
   outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: "Poppins";
+  color: #000;
 }
 
 * {

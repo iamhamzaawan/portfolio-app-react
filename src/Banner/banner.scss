@@ -1,0 +1,128 @@
+.banner {
+  padding: 0 40px;
+}
+
+.banner-row {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.banner-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../../public/images/banner/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 60% !important;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+}
+
+// .content .name-wrap, .content .job-wrap {
+//   width: 100%;
+//   height: auto;
+//   clear: both;
+//   float: left;
+// }
+
+// .content .name-wrap {
+//   margin-bottom: 0;
+// }
+
+.content h3 {
+  font-size: 72px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.content h3 span {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  padding-left: 2px;
+}
+
+.content .job {
+  font-weight: 500;
+  font-size: 17px;
+  font-family: "Roboto";
+  position: relative;
+  overflow: hidden;
+  color: #555;
+}
+
+.sociallo {
+  margin-top: 14px;
+}
+
+.social {
+  display: inline-flex;
+  list-style: none;
+}
+
+.social li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.social li a {
+  cursor: pointer;
+}
+
+.social li a svg {
+  width: 20px;
+  height: 20px;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+
+// .social li {
+//   display: flex;
+//   position: relative;
+//   z-index: 4;
+// }
+
+// Key frames
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
