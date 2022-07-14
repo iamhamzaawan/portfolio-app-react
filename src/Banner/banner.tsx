@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { Facebook, Twitter, Instagram, Behance, Discord  } from 'react-bootstrap-icons'
+import { Facebook, Twitter, Instagram, Linkedin, Github  } from 'react-bootstrap-icons'
 
 import './banner.scss'
 
@@ -22,19 +22,19 @@ export default function Banner() {
               <span className="job">
                 <ul className="social">
                   <li>
-                    <a><Facebook /></a>
+                    <a href="https://www.facebook.com/iamhamzawan/"><Facebook /></a>
                   </li>
                   <li>
-                    <a><Twitter /></a>
+                    <a href="https://twitter.com/iamhamzawan"><Twitter /></a>
                   </li>
                   <li>
-                    <a><Instagram /></a>
+                    <a href="https://www.instagram.com/iamhamzaamir/"><Instagram /></a>
                   </li>
                   <li>
-                    <a><Behance /></a>
+                    <a href="https://www.linkedin.com/in/iamhamzaawan/"><Linkedin /></a>
                   </li>
                   <li>
-                    <a><Discord /></a>
+                    <a href="https://github.com/iamhamzaawan"><Github /></a>
                   </li>
                 </ul>
               </span>
