@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <Container>
       <Navbar variant='light' fixed="top" className={colorChange ? 'opened' : ''}>
-        <Navbar.Brand href="#home">BLOG</Navbar.Brand>
+        <Navbar.Brand href="#home">Hamza Awan</Navbar.Brand>
         <Nav activeKey={location.pathname} className="ms-auto">
           {renderLinks()}
         </Nav>

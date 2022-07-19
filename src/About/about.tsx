@@ -16,7 +16,7 @@ export default function About() {
               </div>
             </Col>
             <Col className="right">
-              <div className="about_title">
+              <div className="section_title">
                 <span>About Me</span>
                 <h3>Full stack Web Developer | DevOps Engineer</h3>
               </div>

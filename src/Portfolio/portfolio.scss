@@ -6,3 +6,25 @@
   background-color: #f9f9f9;
   padding: 150px 0 100px;
 }
+
+.portfolio .container {
+  padding: 0 80px;
+}
+
+.portfolio .portfolio_list {
+  padding-top: 89px;
+}
+
+.portfolio_list a img {
+  height: 339px;
+  width: 100%;
+  object-fit: cover;
+  transition: -webkit-transform 1s cubic-bezier(0,0,.2,1);
+  transition: transform 1s cubic-bezier(0,0,.2,1);
+  transition: transform 1s cubic-bezier(0,0,.2,1),
+  -webkit-transform 1s cubic-bezier(0,0,.2,1);
+}
+
+.portfolio_list_items {
+  margin: 0 0 50px;
+}
