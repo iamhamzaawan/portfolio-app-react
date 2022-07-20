@@ -51,6 +51,15 @@ section {
   font-weight: 800;
 }
 
+img.svg, svg {
+  width: 15px;
+  height: 15px;
+}
+
+iframe, img {
+  max-width: 100%;
+}
+
 * {
   box-sizing: border-box;
 }

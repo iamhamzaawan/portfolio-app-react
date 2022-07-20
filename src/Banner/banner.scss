@@ -19,7 +19,7 @@
   background-size: cover;
 }
 
-.background {
+.banner .background {
   position: absolute;
   top: 0;
   right: 0;
@@ -31,17 +31,6 @@
   position: absolute;
   top: 50%;
 }
-
-// .content .name-wrap, .content .job-wrap {
-//   width: 100%;
-//   height: auto;
-//   clear: both;
-//   float: left;
-// }
-
-// .content .name-wrap {
-//   margin-bottom: 0;
-// }
 
 .content h3 {
   font-size: 72px;
@@ -95,12 +84,6 @@
   -o-animation: fadeIn 4s;
   -ms-animation: fadeIn 4s;
 }
-
-// .social li {
-//   display: flex;
-//   position: relative;
-//   z-index: 4;
-// }
 
 // Key frames
 @keyframes fadeIn {
