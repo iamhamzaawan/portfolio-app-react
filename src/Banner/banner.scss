@@ -85,6 +85,16 @@
   -ms-animation: fadeIn 4s;
 }
 
+@media only screen and (max-width: 768px){
+  .banner-img {
+    background-image: none;
+  }
+
+  .banner-row {
+    height: 80vh;
+  }
+}
+
 // Key frames
 @keyframes fadeIn {
   0% { opacity: 0; }

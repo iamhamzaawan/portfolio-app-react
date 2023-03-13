@@ -9,13 +9,13 @@ export default function About() {
       <div className="about">
         <Container>
           <Row className="about_inner">
-            <Col className="left">
+            <Col md='6' className="left">
               <div className="about_image_parent">
                 {/* <div className="about_image">Hello</div> */}
                 <img src="/images/dp.jpg" className="about_image" />
               </div>
             </Col>
-            <Col className="right">
+            <Col md='6' className="right">
               <div className="section_title">
                 <span>About Me</span>
                 <h3>Full stack Web Developer | DevOps Engineer</h3>

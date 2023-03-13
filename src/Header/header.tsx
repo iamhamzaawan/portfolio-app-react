@@ -6,14 +6,21 @@ import "./header.scss";
 
 export default function Header() {
   const [colorChange, setColorchange] = useState(false);
+  const [firstRender, setFirstRender] = useState(true);
   let location = useLocation();
 
   useEffect(() => {
-    window.addEventListener('scroll', changeNavbarColor);
-  }, [])
+    if(firstRender){
+      changeNavbarColor();
+      window.addEventListener('scroll', changeNavbarColor);
+      window.addEventListener('resize', changeNavbarColor);
+      setFirstRender(false)
+    }
+
+  }, [firstRender])
 
   const changeNavbarColor = () => {
-    if(window.scrollY >= 420)
+    if(window.scrollY >= 420 || window.innerWidth <= 768)
       setColorchange(true);
     else
       setColorchange(false);
@@ -29,11 +36,14 @@ export default function Header() {
 
   return (
     <Container>
-      <Navbar variant='light' fixed="top" className={colorChange ? 'opened' : ''}>
+      <Navbar collapseOnSelect expand="md" variant='light' fixed="top" className={colorChange ? 'opened' : ''}>
         <Navbar.Brand href="#home">Hamza Awan</Navbar.Brand>
-        <Nav activeKey={location.pathname} className="ms-auto">
-          {renderLinks()}
-        </Nav>
+        <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav activeKey={location.pathname} className="ms-auto">
+            {renderLinks()}
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
       
       {/* TODO: Add mobile menu */}

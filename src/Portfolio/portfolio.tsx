@@ -14,30 +14,30 @@ export default function Portfolio() {
           </div>
           <div className="portfolio_list">
             <Row>
-              <div className="col-4 portfolio_list_items">
+              <Col md='4' className="portfolio_list_items">
                <a href="#">
                 <img src="/images/gallery/workplace.jpg" />
                </a>
-              </div>
+              </Col>
 
-              <div className="col-4 portfolio_list_items">
+              <Col md='4' className="portfolio_list_items">
                <a href="#">
                 <img src="/images/gallery/lahanur.jpg" />
                </a>
-              </div>
+              </Col>
 
-              <div className="col-4 portfolio_list_items">
+              <Col md='4' className="portfolio_list_items">
                <a href="#">
                 <img src="/images/gallery/cp.jpg" />
                </a>
-              </div>
+              </Col>
             </Row>
             <Row>
-              <div className="col-4 portfolio_list_items">
+              <Col md='4' className="portfolio_list_items">
                <a href="#">
                 <img src="/images/gallery/cardano-marketplace.jpg" />
                </a>
-              </div>
+              </Col>
             </Row>
           </div>
         </Container>
